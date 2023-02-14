@@ -38,7 +38,8 @@ def main():
         print("Data transfer started")
         post_request(payload)
         print("Data Successfully sent to server")
-        print("\nReading data from serial port.....")
+        print("==================================")
+        print("Reading data from serial port.....")
 
 
 if __name__ == '__main__':
